@@ -1,0 +1,52 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+@font-face {
+    font-family: 'akzidenz';
+    src: url(../styles/fonts/akzidenzgroteskbe-xbdcn-opentype_bigfontsite.com.otf);
+}
+
+@import './variables';
+@import './navigation';
+@import './hero';
+@import './form';
+@import './register';
+@import './follow';
+@import './footer';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+    background-color: $navColor;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    width: 70%;
+    padding: 1rem;
+    color: #fff;
+    border: 0;
+    font-family: 'Gotham Black', sans-serif;
+    outline: none;
+    background: rgb(28,47,26);
+    background: linear-gradient(0deg, rgba(28,47,26,1) 0%, rgba(28,102,52,1) 75%, rgba(28,164,73,1) 100%);
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    &:hover {
+        background-color: #ce2126;
+    }
+}
+.err-msg {
+    color: #ce2126;
+}

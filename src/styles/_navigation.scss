@@ -1,0 +1,13 @@
+.navbar {
+    padding: 1rem 2rem;
+    background-color: $navColor;
+    .logo {
+        width: 40%;
+    }
+    @media (min-width: 768px) {
+        padding: 0.9rem 7rem;
+        .logo {
+            width: 15%;
+        }
+    }
+}

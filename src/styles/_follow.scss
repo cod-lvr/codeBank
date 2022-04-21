@@ -1,0 +1,152 @@
+.follow {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8edf0;
+    text-align: center;
+    height: 100vh;
+    .title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #4f5258;
+    }
+    .content {
+        color: #515459;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .spliter {
+        background-color: #c1c6c9;
+        width: 80%;
+        min-height: 3px;
+        border-radius: 12px;
+        border: 1px solid #f3f7fa;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.2rem 0 0;
+        width: 80%;
+        margin: 2rem auto;
+        .circle {
+            text-align: center;
+            width: 9%;
+            padding: .5rem;
+            border-radius: 50%;
+            cursor: pointer;
+            i {
+                color: #e8edf0;
+            }
+        }
+        .face {
+            background-color: #4267b2;
+        }
+        .twitter {
+            background-color: #00acee;
+        }
+        .linked {
+            background-color: #0077b5;
+        }
+        .youtube {
+            background-color: #ff0000;
+        }
+        .instg {
+            background-color: #f54d65;
+        }
+    }
+    .contact {
+        width: 100%;
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            .photo {
+                width: 41%;
+                img {
+                    border-radius: 50%;
+                }
+            }
+            .details {
+                width: 100%;
+                .title {
+                    margin: 1.4rem 0;
+                }
+
+            }
+        }
+    }
+    .bank {
+        width: 100%;
+        min-height: 140px;
+        .social {
+            padding: 2rem;
+        }
+        .content {
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            .slash {
+                color: #df5258;
+                margin: 0 0.4rem;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        padding: 0.2rem 8.4rem;
+        flex-direction: row;
+        height: 40vh;
+        .spliter {
+        width: 0.14%;
+        min-height: 130px;
+        }
+        .social {
+        padding: 0.2rem 0 0;
+        width: 57%;
+        margin: 0 auto;
+        .circle {
+            width: 10%;
+            padding: .5rem;
+        }
+      }
+        .contact {
+            width: 48%;
+        .content {
+            font-size: 14px;
+        }
+        .info {
+            flex-direction: row;
+            .photo {
+                width: 30%;
+            }
+            .details {
+                width: 70%;
+                text-align: left;
+                padding-left: 20px;
+                .title {
+                    margin-bottom: 1.4rem;
+                }
+            }
+            .social {
+                width: 100%;
+                padding: 0.5rem 0;
+            }
+        }
+    }
+        .bank {
+        width: 46%;
+        min-height: 140px;
+        .social {
+            padding: 2rem;
+        }
+        .content {
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+}
+}

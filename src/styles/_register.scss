@@ -1,0 +1,104 @@
+.register {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../media/mobile/regs.png);
+    background-position: center;
+    background-size: 95%;
+    height: 80vh;
+    background-color: #f3f7fa;
+    position: relative;
+    .content-box {
+        text-align: center;
+        .title {
+            font-size: 23px;
+            font-weight: 600;
+        }
+        .content {
+            margin: 1.5rem 0 0;
+            font-size: 18px;
+            color: #010101;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+     .register-action {
+        width: 100%;
+        text-align: center;
+        .logo {
+            width: 100%;
+            margin: auto;
+        }
+        .note {
+            font-size: 13.2px;
+            color: #010101;
+            font-weight: 600;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 930px) {
+        padding: 3rem 5rem;
+        flex-direction: row;
+        background: url(../media/reg.png);
+        background-position: center;
+        background-size: 235%;
+        height: 30vh;
+          .content-box {
+            text-align: left;
+            width: 100%;
+            .title {
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .content {
+                margin: 1rem 0;
+                font-size: 15px;
+                color: #010101;
+                font-weight: 500;
+            }
+        }
+        .register-action {
+            width: 100%;
+            text-align: center;
+            .logo {
+                width: 70%;
+            }
+            .note {
+                font-size: 14.2px;
+            }
+        }
+    }
+    @media (min-width: 930px) {
+        padding: 2rem 7rem;
+        flex-direction: row;
+        background: url(../media/reg.png);
+        background-position: center;
+        background-size: 178%;
+        height: 30vh;
+          .content-box {
+            text-align: left;
+            .title {
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .content {
+                margin: 1rem 0;
+                font-size: 17px;
+                color: #010101;
+                font-weight: 500;
+            }
+        }
+        .register-action {
+            width: 100%;
+            text-align: center;
+            .logo {
+                width: 70%;
+            }
+            .note {
+                font-size: 14.2px;
+            }
+        }
+    }
+}

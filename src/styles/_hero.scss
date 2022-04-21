@@ -1,0 +1,57 @@
+.hero {
+    height: 85vh;
+    background-image: url(../media/mobile/bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 112%;
+    background-clip: border-box;
+    position: relative;
+    .content-banner {
+        padding: 1rem;
+        background-color: transparent;
+        position: absolute;
+        bottom: 4%;
+        left: 0%;
+        right: 0%;
+        text-align: center;
+        .title {
+            color: $titleColor;
+            font-family: 'akzidenz', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 2.5rem;
+            letter-spacing: -0.1px;
+            text-shadow: 0 4px 8px #3b3b3b;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 930px) {
+        height: 80vh;
+        background-image: url(../media/Background.png);
+        width: 100%;
+        background-size: 180%;
+        .content-banner {
+            bottom: 2%;
+            background-color: rgba(0, 0, 0, 0.538);
+            .title {
+                font-size: 45px;
+                line-height: 2.5rem;
+            }
+        }
+    }
+    @media (min-width: 930px) {
+        height: 80vh;
+        background-image: url(../media/Background.png);
+        width: 100%;
+        background-size: 138%;
+         .content-banner {
+            bottom: 2%;
+            background-color: rgba(0, 0, 0, 0.538);
+            .title {
+                font-size: 45px;
+                line-height: 2.5rem;
+            }
+        }
+    }
+}
+
